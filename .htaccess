@@ -1,0 +1,7 @@
+Options -MultiViews
+        
+RewriteEngine On
+#RewriteBase /path/to/app
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ routes.php [QSA,L]
+

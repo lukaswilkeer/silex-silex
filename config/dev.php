@@ -7,7 +7,8 @@ use Silex\Provider\WebProfilerServiceProvider;
 ini_set('display_errors',1);
 
 // System enviroments variables.
-define("APPDIR", $_SERVER['DOCUMENT_ROOT'].'/php/silex-skeleton');
+define("APPDIR", $_SERVER['DOCUMENT_ROOT'].'/opensource/silex-silicon');
+define("URL","http://localhost");
 
 // enable the debug mode
 $app['debug'] = true;

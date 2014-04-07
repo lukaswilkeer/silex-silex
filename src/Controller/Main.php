@@ -3,22 +3,18 @@ namespace Controller;
 use Silex\Application;
 use Mustache\Silex\Provider\MustacheServiceProvider;
 
-class Main
+class Main extends Controller
 {
-    var $app;
+    static $app;
     var $tpl;
+
+    /*
+    If you want, you can use a __construct function.
 
     function __construct()
     {
-        $this->app = new Application();
-        $this->app->register(new MustacheServiceProvider(), array(
-            'mustache.path'    => APPDIR.'/view',
-            'mustache.partials_path' => APPDIR.'/view', 
-            'mustache.options' => array('cache' => APPDIR.'/cache/mustache'),
-        ));
-
-
-    }   
+        $controller = parent::__construct();
+    } */
 
     function index()
     {
@@ -26,7 +22,10 @@ class Main
      * This is a exemple for controller function.
      * Render index page.
      */
-        echo $this->tpl = $this->app['mustache']->render('Main/index', array('nome' => 'Lukas'));
+        parent::__construct();
+        echo $this->tpl = $this->app['mustache']->render('Main/index', 
+            array('nome' => 'mega-hiper-super developer',
+                'other' => 'other'));
     }
 }
 ?>

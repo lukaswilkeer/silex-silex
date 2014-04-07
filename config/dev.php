@@ -8,7 +8,7 @@ ini_set('display_errors',1);
 
 // System enviroments variables.
 define("APPDIR", $_SERVER['DOCUMENT_ROOT'].'/opensource/silex-silicon');
-define("URL","http://localhost");
+define("URL","http://localhost/opensource/silex-silicon");
 
 // enable the debug mode
 $app['debug'] = true;

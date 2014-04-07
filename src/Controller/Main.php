@@ -12,8 +12,8 @@ class Main
     {
         $this->app = new Application();
         $this->app->register(new MustacheServiceProvider(), array(
-            'mustache.path'    => APPDIR.'/web',
-            'mustache.partials_path' => APPDIR.'/templates', 
+            'mustache.path'    => APPDIR.'/view',
+            'mustache.partials_path' => APPDIR.'/view', 
             'mustache.options' => array('cache' => APPDIR.'/cache/mustache'),
         ));
 

@@ -25,7 +25,8 @@ class Main extends Controller
         parent::__construct();
         echo $this->tpl = $this->app['mustache']->render('Main/index', 
             array('nome' => 'mega-hiper-super developer',
-                'other' => 'other'));
+            'title' => 'Welcome',
+            'url' => URL));
     }
 }
 ?>

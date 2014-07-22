@@ -1,7 +1,6 @@
 Options -MultiViews
         
 RewriteEngine On
-#RewriteBase /path/to/app
+#RewriteBase /var/www/opensource/silex-silicon/
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ routes.php [QSA,L]
-
+RewriteRule ^(.*)$ index.php/$1 [QSA,L]

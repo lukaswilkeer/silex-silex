@@ -16,6 +16,11 @@ class Controller
             'mustache.partials_path' => APPDIR.'/view', 
             'mustache.options' => array('cache' => APPDIR.'/cache/mustache'),
         ));
-    } 
+    }
+
+    public function teste()
+    {
+        echo "Go trello go.";
+    }
 }
 ?>

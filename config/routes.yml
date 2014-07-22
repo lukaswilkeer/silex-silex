@@ -1,0 +1,9 @@
+# config/routes.yml
+ 
+main:
+  path: /
+  defaults: { _controller: 'Controller\Main::index' }
+ 
+hello:
+  path: /hello/{name}
+  defaults: { _controller: 'Controller\Main::hello' }

@@ -23,10 +23,21 @@ class Main extends Controller
      * Render index page.
      */
         parent::__construct();
-        echo $this->tpl = $this->app['mustache']->render('Main/index', 
+        return $this->tpl = $this->app['mustache']->render('Main/index', 
             array('nome' => 'mega-hiper-super developer',
             'title' => 'Welcome',
             'url' => URL));
+    }
+
+
+    function hello($name)
+    {
+        parent::__construct();
+        return $this->tpl = $this->app['mustache']->render('Main/index', array(
+            'nome' => $name,
+            'title' => 'Welcome',
+            'url' => URL
+        ));
     }
 }
 ?>

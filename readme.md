@@ -8,6 +8,7 @@ This skeleton contains.
 *   Symfony/form.
 *   Symfony/validator.
 *   Symfony web profiler.
+*   YAML Routing
 *   Various Symfony components!
 *   Check the composer.json for more.
 
@@ -17,7 +18,7 @@ On the configuration file, set the `APPDIR` variable.
 Don't forget to set write permission to folders `cache/` adn `logs/` folder.
 
 ### How to create a project?
-Using composer,`php composer.phar create-project lukaswilkeer/silex-silicon project-folder/ v0.1`,
+Using composer,`php composer.phar create-project lukaswilkeer/silex-silicon project-folder/ v0.4`,
 or clone thi repository.
 
 ### Contributing.

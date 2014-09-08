@@ -1,5 +1,3 @@
-cache/mustache/*
-cache/profiler/*
-cache/twig/*
 cache/
+vendor/
 composer.lock

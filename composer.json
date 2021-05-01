@@ -5,7 +5,6 @@
     "type": "project",
     "keywords": ["project","skeleton","silex","silicon","php","micro-framework"],
     "homepage": "http://github.com/Seldaek/monolog",
-    "license": "MIT",
     "authors":[{
             "name": "Lukas Wilkeer"
         }],
@@ -25,7 +24,7 @@
         "symfony/validator": "~2.2",
         "symfony/http-foundation": "~2.2",
         "mustache/silex-provider":"~1.0",
-        "symfony/Yaml": "2.5.*"
+        "symfony/Yaml": "2.5.*",
         "respect/relational":"~0.5.1"
     },
     "autoload": {

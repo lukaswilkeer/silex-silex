@@ -26,4 +26,4 @@ or clone thi repository.
 Fork this repository, create a branch, submit a pull request with your feature.
 
 ### Contact.
-@lukaswilkeer on twitter.
+Lukas Wilkeer | @lukaswilkeer

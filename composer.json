@@ -1,10 +1,8 @@
 {
     "name": "lukaswilkeer/silex-silicon",
     "description": "A pre-configured skeleton for the Silex microframework",
-    "license": "MIT",
     "type": "project",
     "keywords": ["project","skeleton","silex","silicon","php","micro-framework"],
-    "homepage": "http://github.com/Seldaek/monolog",
     "license": "MIT",
     "authors":[{
             "name": "Lukas Wilkeer"
@@ -26,7 +24,6 @@
         "symfony/translation": "~2.2",
         "symfony/twig-bridge": "~2.2",
         "symfony/validator": "~2.2",
-        "symfony/Yaml": "2.5.*",
         "symfony/http-foundation": "~2.2",
         "mustache/silex-provider":"~1.0",
         "symfony/Yaml": "2.5.*"
